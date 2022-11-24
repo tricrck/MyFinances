@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    <TextView
+        android:id="@+id/acc_no_loan_lst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp" />
+    <TextView
+        android:id="@+id/curr_bal_loan_lst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/acc_no_loan_lst"
+        android:layout_marginTop="7dp"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+	<TextView
+        android:id="@+id/init_bal_loan_lst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/curr_bal_loan_lst"
+        android:layout_marginTop="7dp"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+	<TextView
+        android:id="@+id/intrest_rt_loan_lst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/init_bal_loan_lst"
+        android:layout_marginTop="7dp"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+	<TextView
+        android:id="@+id/pay_amnt_loan_lst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intrest_rt_loan_lst"
+        android:layout_marginTop="7dp"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+</RelativeLayout>
